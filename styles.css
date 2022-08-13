@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.horizontal-list {
+  display: flex;
+  gap: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header-content {
+  display: flex;
+  margin: 50px;
+}
+
+.header-content-left {
+  flex: 1;
+  padding-right: 30px;
+}
+
+.header-content-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background-color: darkgrey;
+}
