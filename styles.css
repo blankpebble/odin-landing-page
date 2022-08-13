@@ -1,7 +1,6 @@
 html {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: #1F2937;
-  ;
 }
 
 .container {
@@ -15,7 +14,7 @@ html {
   flex-direction: column;
   background-color: #1F2937;
   color: #F9FAF8;
-  max-width: 2000px;
+  width: 90%;
 }
 
 .navigation {
@@ -62,7 +61,7 @@ ul {
   align-items: center;
 }
 
-img {
+#hero-img {
   min-width: 300px;
   max-width: 600px;
   flex: auto;
@@ -88,4 +87,42 @@ img {
   border-radius: 5px;
   border: 0;
   padding: 8px 24px 8px;
+}
+
+.process {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  width: 100%;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: extra-bold;
+  color: #152937;
+}
+.process-elements {
+  display: flex;
+  gap: 50px;
+}
+
+.process-element {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+  font-size: 18px;
+  color: #152937; 
+}
+
+.process-element img {
+  border: solid 3px #3882F6;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  height: auto;
 }
