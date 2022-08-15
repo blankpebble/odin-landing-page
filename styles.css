@@ -20,6 +20,7 @@ html {
 .navigation {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   margin-left: 50px;
   margin-right: 50px;
@@ -47,6 +48,7 @@ ul {
 .header-content {
   display: flex;
   margin: 50px;
+  flex-wrap: wrap;
 }
 
 .header-content-left {
@@ -72,6 +74,7 @@ ul {
   font-size: 48px;
   font-weight: extra-bold;
   color: #F9FAF8;
+  margin-top: 0px;
 }
 
 #hero-secondary {
@@ -86,6 +89,7 @@ ul {
   border-radius: 5px;
   border: 0;
   padding: 8px 24px 8px;
+  margin-bottom: 24px;
 }
 
 .process {
@@ -101,8 +105,11 @@ h2 {
   font-weight: extra-bold;
   color: #152937;
 }
+
 .process-elements {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 50px;
 }
 
@@ -113,7 +120,8 @@ h2 {
   max-width: 200px;
   text-align: center;
   font-size: 18px;
-  color: #152937; 
+  color: #152937;
+  margin: 20px;
 }
 
 .process-element img {
