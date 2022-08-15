@@ -47,13 +47,13 @@ ul {
 
 .header-content {
   display: flex;
-  margin: 50px;
+  margin: 48px;
   flex-wrap: wrap;
+  gap: 32px;
 }
 
 .header-content-left {
   flex: 1;
-  padding-right: 30px;
 }
 
 .header-content-right {
@@ -89,7 +89,6 @@ ul {
   border-radius: 5px;
   border: 0;
   padding: 8px 24px 8px;
-  margin-bottom: 24px;
 }
 
 .process {
@@ -172,6 +171,7 @@ a:hover {
 
 a.order-button {
   color: #E5E7EB;
+  margin-top: 32px;
 }
 
 a.order-button:hover {
