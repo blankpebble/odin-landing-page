@@ -12,6 +12,7 @@ html {
 .header {
   display: flex;
   flex-direction: column;
+  align-items: center;
   background-color: #1F2937;
   color: #F9FAF8;
   width: 100%;
@@ -49,6 +50,7 @@ ul {
   margin: 48px;
   flex-wrap: wrap;
   gap: 32px;
+  max-width: 1000px;
 }
 
 .header-content-left {
@@ -153,7 +155,7 @@ img {
 
 #customer {
   text-align: end;
-  font-weight:bolder;
+  font-weight: bolder;
   padding: 0px 50px 50px 0px;
   font-size: 24px;
 }
@@ -164,7 +166,7 @@ a {
 }
 
 a:hover {
-    color: #F9FAF8;
+  color: #F9FAF8;
 }
 
 a.order-button {
@@ -178,12 +180,13 @@ a.order-button:hover {
 
 .call-to-action {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
   flex: 1 1 auto;
   flex-wrap: wrap;
   gap: 20px;
   width: 60%;
+  max-width: 1000px;
   margin: 80px 100px 80px;
   padding: 20px 100px 20px;
   background-color: #3882F6;
@@ -194,7 +197,7 @@ a.order-button:hover {
   color: #E5E7EB;
 }
 
-.call-to-action-left h3{
+.call-to-action-left h3 {
   color: #F9FAF8;
 }
 
